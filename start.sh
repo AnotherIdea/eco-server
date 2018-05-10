@@ -13,6 +13,6 @@ if [ ! -f Storage/DefaultWorld ]; then
   cp DefaultStorage/* Storage/
 fi
 
-echo "$ECO_VESRION" > Configs/eco_version
+echo "$ECO_VERSION" > Configs/eco_version
 
 mono EcoServer.exe -nogui
