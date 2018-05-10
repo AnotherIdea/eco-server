@@ -13,3 +13,5 @@ docker run -d --name "eco-server" -v ~/eco-server/Storage:/srv/eco-server/Storag
 ```
 make build
 ```
+
+l
