@@ -13,7 +13,7 @@ CMD ["/srv/eco-server/start.sh"]
 
 ADD SHA256SUMS ./
 
-ENV ECO_VERSION="0.7.4.5-beta"
+ENV ECO_VERSION="0.7.4.6-beta"
 LABEL eco.version=${ECO_VERSION}
 
 ### Install Eco Server
